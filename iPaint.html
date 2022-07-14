@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body ondragstart="return false;" ondrop="return false;">
+    <h1 id='r'>BySattoroff</h1>
+    <h1 id='h'>iPaint</h1>
+    <h2>Choose Grid Size</h2>
+    <form id="sizePicker" >
+        Grid Height:
+        <input type="number" id="inputHeight" name="height" min="1" value="50">
+        Grid Width:
+        <input type="number" id="inputWidth" name="width" min="1" value="100">
+        <div class="pix">
+          Pixel Height:
+          <input type="number" id="PixelHeight" name="height" value="10">
+          Pixel Width:
+          <input type="number" id="PixelWidth" name="width" value="10">
+          <input type="submit" id="sub" >
+        </div>
+
+   </form>
+
+    <h2 id='h2'>Pick A Color</h2>
+    <input type="color" id="colorPicker">
+
+    <h2 id='Dcan'>Design Canvas</h2>
+
+    <h2 id='er' style="display:inline">Eraser</h2>
+    <h4 style="display:inline;margin-bottom:20px" id='EraseHeading'></h4>
+    <input type="button" id="on" name="eraseOn" value="On" >
+    <input type="button" id="off" style="margin-bottom:20px" name="eraseOff" value="Off">
+    <input type='button' id='cl' value="Clear" ></input>
+    <table id="pixelCanvas"></table>
+
+    <script src="js/designs.js"></script>
+</body>
+
+</html>
