@@ -6,3 +6,5 @@ This simple web page was developed using HTML, CSS and Javascript language. In t
      <img src="https://user-images.githubusercontent.com/106261886/178954227-66dd2361-0b22-453b-a886-c71163495d45.png" alt="second" width="500">
 </div>
 
+Firstful the grid size and the pixel size should be inserted. Painting area appears after clicking submit button. Color picking option is also available.
+The eraser can be used in order to clean unwanted parts or just click "Clear" button to clean whole area.
