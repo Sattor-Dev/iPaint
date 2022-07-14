@@ -1,0 +1,81 @@
+body {
+  text-align: center;
+  background-image: url('../images/background-image.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.pix{
+  padding-top: 10px;
+  margin-right: -70px;
+}
+
+#sub{
+  margin-left: 10px;
+}
+
+
+h1#h{
+  font-family: sans-serif;
+  font-size: 70px;
+  margin: 0.2em;
+  padding-left: 90px;
+
+
+}
+
+h2 {
+  margin: 1em 0 0.25em;
+
+}
+
+h2:first-of-type {
+  margin-top: 0.5em;
+  padding-left: 90px;
+  padding-bottom: 25px;
+}
+
+
+table {
+
+  margin: 0 auto;
+  border-collapse: collapse;
+
+}
+
+
+input{
+  cursor: pointer;
+}
+
+
+
+
+tr {
+  height: 10px;
+  width: 10px;
+
+
+}
+
+td {
+
+  height: 10px;
+  width: 10px;
+
+
+}
+
+
+input[type="number"] {
+  width: 6em;
+}
+
+#r{
+  text-align: left;
+  width: 50px;
+  height: 25px;
+  opacity: 0.1;
+}
